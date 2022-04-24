@@ -1,5 +1,19 @@
+/***TAG SELECTORS***/
+
 body {
   background-color: #F1F1F6;
+}
+
+a:hover {
+  background-color: #E3E2E3;
+  color: #BE9FE1;
+  text-decoration: none;
+}
+/*** a:hover above indicates a 'pseudo-class', changing the state of anchors when hovered over***/
+
+a:link {
+  color: #BE9FE1;
+  text-decoration: none;
 }
 
 hr {
@@ -25,14 +39,13 @@ h3 {
   font-style: italic;
 }
 
+/***CLASS SELECTORS***/
+
 .image {
   border-radius: 100%;
   height: 200px;
   width: 200px;
   object-fit: cover;
-}
-
-a:hover {
-  background-color: #E3E2E3;
-  color: #BE9FE1;
+  /***^ CSSLint calling this an unknown property but it has worked as intended on the page.
+  (This object fit as 'cover' makes the photo fit into the border radius (circle) without being stretched.)***/
 }
