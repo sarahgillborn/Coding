@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact me</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1>How to contact me</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="top-container">
+    <h1>How to contact me.</h1>
+  </div>
+
+  <div class="middle-container">
     <h2>Using this form</h2>
     <p>
       This form will create an email for you that you can send to me. Not the most intuitive option for a form, but it's what I've learnt so far!
-    </p>
-    <hr>
+    </p><br>
+    <hr><br>
     <form action="mailto:s.gillborn@bham.ac.uk" method="post" enctype="text/plain">
       <label for="">Name:</label>
       <input type="text" name="Name" value=""><br>
@@ -21,8 +30,13 @@
       <textarea name="Message" rows="10" cols="30"></textarea><br>
       <input type="submit" name="">
     </form>
-    <p>
-      <a href="index.html">Home</a>
-    </p>
-  </body>
+  </div>
+
+
+  <div class="bottom-container">
+    <a href="index.html">Home</a>
+  </div>
+
+</body>
+
 </html>

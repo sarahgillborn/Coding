@@ -1,0 +1,219 @@
+a {
+  color: #BFA2DB;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #F3F8FF;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.credit {
+  font-size: 0.75rem;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, ##30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, ##30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, ##30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, ##30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, ##30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+body {
+  background-color: #F1F1F6;
+  color: #40514E;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+}
+
+div {
+  padding: 10%;
+  position: relative;
+}
+
+.title-container {
+  background-color: #F3F8FF;
+  padding: 15% 10% 15% 10%;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #F3F8FF;
+}
+
+.middle-container {
+  background-color: #DEECFF;
+}
+
+.bottom-container {
+  background-color: #E8D3FF;
+  color: #F3F8FF;
+  padding: 2%;
+}
+
+/*
+.section-break {
+  background-color: #E1CCEC;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+*/
+.listing-skills {
+  text-align: left;
+}
+
+.top-cloud {
+  display: block;
+  position: absolute;
+  right: 400px;
+  top: 150px;
+}
+
+.bottom-cloud {
+  display: block;
+  left: 400px;
+  position: absolute;
+}
+
+.skill-row {
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+}
+
+h1 {
+  color: #BFA2DB;
+  font-size: 5rem;
+  font-family: "Sacramento", serif;
+  letter-spacing: 2px;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #BFA2DB;
+  font-size: 2.5rem;
+  font-family: "Baskervville", serif;
+  font-weight: normal;
+  margin-top: 10px;
+  text-transform: lowercase;
+}
+
+h3 {
+  color: #BFA2DB;
+  font-size: 1.5rem;
+  font-family: "Baskervville", serif;
+  margin-top: 0;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+hr {
+  background: none;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #F3F8FF;
+  border-width: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 6%;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 2;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.contact-para {
+  margin: 40px auto 40px auto;
+  width: 40%;
+}
+
+.about-me {
+  margin: auto;
+  width: 50%;
+}
+
+.copyright {
+  font-size: 0.75rem;
+}
+
+/*
+.html-skill-description {
+  clear: left;
+}
+
+.css-skill-description {
+  clear: right;
+}
+*/
+.image {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  /***^ CSSLint calling this an unknown property but it has worked as intended on the page.
+  (This object fit as 'cover' makes the photo fit into the border radius (circle) without being stretched. So, it's covered by the boundaries of the radius.)***/
+}
+
+.html-img {
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  position: relative;
+  text-align: center;
+  width: 25%;
+}
+
+.css-img {
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
+  width: 25%;
+}
+
+.question-mark-img {
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  position: relative;
+  text-align: center;
+  width: 25%;
+}
